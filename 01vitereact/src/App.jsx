@@ -1,8 +1,16 @@
+import Prajal from "./prajal"
 
 function App() {
+  const username = "prajal"
 
   return (
-    <h1>Prajal vite</h1>
+    // fragment
+    <>    
+
+    <Prajal/>
+    <h2>hello {username}</h2>
+    <p>world</p>
+    </>
   )
 }
 
