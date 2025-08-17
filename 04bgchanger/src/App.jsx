@@ -9,7 +9,7 @@ function App() {
   }
 
   return (
-    <div className="w-full h-screen transition-al l relative flex justify-center"
+    <div className="w-full h-screen transition-all relative flex justify-center"
     style={{backgroundColor : color}}
    >
       <div className="flex gap-8 absolute bottom-3 flex-wrap justify-center bg-white p-3 rounded-full">

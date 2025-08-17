@@ -42,7 +42,7 @@ function App() {
   
   useEffect(() => {
     passwordGenerator()
-  }, [length, numberAllowed, charartorAllowed, passwordGenerator])   
+  }, [length, numberAllowed, charartorAllowed, passwordGenerator])    
 
 
   return (
@@ -76,7 +76,7 @@ function App() {
             min={6} 
             max={100} 
             value={length} 
-            onChange={(e) => {setLength(e.target.value) }} />
+            onChange={(e) => setLength(e.target.value) } />
             <label>Length : {length}</label>
           </div>
 
