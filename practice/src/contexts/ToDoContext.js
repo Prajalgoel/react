@@ -17,7 +17,7 @@ export const ToDoContext = createContext({
 
 export const ToDoContextProvider = ToDoContext.Provider
 
-export default useToDo = () => {
+export const useToDo = () => {
     return useContext(ToDoContext)
 }
 
